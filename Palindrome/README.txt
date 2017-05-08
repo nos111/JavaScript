@@ -1,0 +1,1 @@
+This JavaScript file is a method to check for palindrome. It contains also a function which check for any unrelated input from the user. You can add more charecters to the "testArray" to make sure they are removed from the user input. You can also use the "arraysEquality" function to compare the items of two arrays but make sure they are equal in length first :) 

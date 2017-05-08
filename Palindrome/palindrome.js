@@ -24,8 +24,8 @@ straightArray = straightArray.join("");
 straightArray = straightArray.split("");
 reversedArray = reversedArray.join("");
 reversedArray = reversedArray.split("");
-function arraysEqual(arr1, arr2) {
-  for (var i = 0, len = arr1.length; i < len; i++){
+function arraysEquality (arr1, arr2) {
+  for (var i = 0; i < arr1.length; i++){
     if (arr1[i] !== arr2[i]){
       console.log(false);
       return false;
@@ -34,7 +34,7 @@ function arraysEqual(arr1, arr2) {
   console.log(true);
   return true;
   }
-return arraysEqual(straightArray, reversedArray);
+return arraysEquality(straightArray, reversedArray);
 }
 
 palindrome("A man, a plan, a canal. Panama");
